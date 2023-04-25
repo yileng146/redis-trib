@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:6.2.6
 MAINTAINER Mikako
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y update \
